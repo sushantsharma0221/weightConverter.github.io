@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Josefin+Sans:wght@300&family=Raleway:wght@200&family=Rampart+One&family=Roboto&family=Roboto+Slab:wght@300&family=Saira+Condensed:wght@100&family=Ubuntu:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to right,rgb(82, 205, 214),rgb(70, 189, 197),rgb(57, 132, 155));
+    font-family: Dosis;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.image{
+height: 30vh;
+width: 14vw;
+position: absolute;
+left: 10%;
+top: 30%;
+opacity: 92%;
+filter: drop-shadow(5px 5px 5px rgb(122, 122, 122));
+}
+.container h1{
+    font-size: 50px;
+    text-shadow: 5px 5px 35px rgb(0, 0, 0);
+}
+
+.enterKg{
+    font-size: 15px;
+border: none;
+border-radius: 10px;
+height: 6vh;
+width: 26vw;
+background-color: rgb(255, 255, 255);
+text-align: center;
+box-shadow: 5px 5px 15px rgb(70, 70, 70);
+}
+.conversion{
+    text-align: center;
+    border-radius: 5px;
+    height: 10vh;
+    margin-top: 2vh;
+    font-size: 20px;
+    font-weight: 500;
+    font-size: 25px;
+}
+#gram{
+    background-image: linear-gradient(to right,rgb(204, 89, 89),rgb(240, 77, 91));
+    box-shadow: 5px 5px 15px rgb(70, 70, 70);
+}
+#pound{
+    background-image: linear-gradient(to right,rgb(99, 174, 235),rgb(26, 202, 255));
+    box-shadow: 5px 5px 15px rgb(70, 70, 70);
+}
+#ounce{
+    background-image: linear-gradient(to right,rgb(218, 202, 117),rgb(207, 223, 67));
+    box-shadow: 5px 5px 15px rgb(56, 56, 56);
+}
